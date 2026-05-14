@@ -1,0 +1,6 @@
+streamlit
+transformers
+torch
+matplotlib
+pandas
+tf-keras
