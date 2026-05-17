@@ -7,10 +7,10 @@ from transformers import pipeline
 st.set_page_config(page_title="Sentimento 2025 - Multi-Model", page_icon="🤖", layout="wide")
 
 # --- DICIONÁRIO DE MODELOS DISPONÍVEIS ---
-# Adicionei modelos que funcionam bem em Português
+# Atualizado com modelos ativos e validados para Português
 MODELOS = {
     "BERT Multilingual (1-5 Estrelas)": "nlptown/bert-base-multilingual-uncased-sentiment",
-    "BERT Português (Pos/Neg/Neu)": "pabloms/bert-base-portuguese-lowercased-sentiment",
+    "BERT Português (Pos/Neg/Neu)": "finiteautomata/bertweet-pt-sentiment",  # <--- Modelo corrigido e ativo!
     "Twitter RoBERTa (Emoções)": "cardiffnlp/twitter-xlm-roberta-base-sentiment"
 }
 
